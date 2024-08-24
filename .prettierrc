@@ -1,0 +1,6 @@
+{
+  "endOfLine": "auto",
+  "prettier.printWidth": 80,
+  "prettier.trailingComma": "es5",
+  "prettier.tabWidth": 2
+}
