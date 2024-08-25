@@ -1,8 +1,12 @@
 const express = require("express");
+
 const postController = require("../controller/postController");
 const authController = require("../controller/authController");
+const commentRouter = require("./commentRoutes");
 
 const router = express.Router();
+
+router.use("/:id/comments", commentRouter);
 
 router
   .route("/")
