@@ -9,6 +9,10 @@ router
   .post(authController.protect, postController.createBlog)
   .get(authController.protect, postController.getAllPosts);
 
-router.route("/:id").get(authController.protect, postController.getPost);
+router
+  .route("/:id")
+  .get(authController.protect, postController.getPost)
+  .patch(authController.protect, postController.updatePost)
+  .delete(authController.protect, postController.deletePost);
 
 module.exports = router;
