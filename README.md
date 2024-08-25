@@ -1,6 +1,6 @@
 # Project Title
 
-Simple blog api to made using NodeJS, Express and Sequelize.
+Simple blog api made using NodeJS, Express and Sequelize.
 
 ## Description
 
